@@ -21,8 +21,13 @@
 % Color definitions
 \definecolor{date}{HTML}{666666} 
 \definecolor{primary}{HTML}{2b2b2b} 
-\definecolor{headings}{HTML}{6A6A6A}
-\definecolor{subheadings}{HTML}{333333}
+\definecolor{name}{HTML}{333333}
+%\definecolor{headings}{HTML}{6A6A6A}
+%\definecolor{subheadings}{HTML}{333333}
+
+
+\definecolor{headings}{HTML}{333333}
+\definecolor{subheadings}{HTML}{6A6A6A}
 
 % Set main fonts
 \defaultfontfeatures{Mapping=tex-text}
@@ -40,10 +45,9 @@ Last Updated on
 \today
 \end{textblock}}
 
-\newcommand{\myname}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{26pt}{30pt}\selectfont {#1 \\} \normalfont}
+\newcommand{\myname}[1]{\color{name}\raggedright\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{26pt}{30pt}\selectfont {#1 \\} \normalfont}
 
-\newcommand{\links}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
-
+\newcommand{\links}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont   }
 
 
 \titlespacing{\section}{0pt}{0pt}{0pt}
@@ -51,7 +55,7 @@ Last Updated on
 % thin section headings (ie. Experience, Awards, Education)
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{12pt}{12pt}\selectfont \raggedright\uppercase}{} {0em}{}
+\scshape\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{14pt}{14pt}\selectfont \raggedright\uppercase}{} {0em}{}
 
 % bold headings in small column!
 % (ie. Data Analysis and Visualization.
@@ -64,7 +68,7 @@ Last Updated on
 % bold headings in large column!
 % (ie. Data Science | Northwestern Univ. | Evanston ...
 \newcommand{\runsubsection}[1]{\color{subheadings}
-\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+\fontspec[Path = fonts/lato/]{Lato-Reg}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
 
 % Descriptors command
 % NOT USED CURRENTLY!
