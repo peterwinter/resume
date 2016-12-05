@@ -47,7 +47,7 @@ Last Updated on
 
 \newcommand{\myname}[1]{\color{name}\raggedright\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{26pt}{30pt}\selectfont {#1 \\} \normalfont}
 
-\newcommand{\links}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont   }
+\newcommand{\links}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{8pt}{10pt}\selectfont {#1 \\} \normalfont   }
 
 
 \titlespacing{\section}{0pt}{0pt}{0pt}
