@@ -40,40 +40,18 @@ Last Updated on
 \today
 \end{textblock}}
 
-% Name command
-% \newcommand{\namesection}[1]{
-% 		\sffamily
-% 		\fontspec[Path = fonts/lato/]{Lato-Hai}\fontsize{25pt}{10cm}\selectfont 
-        
-% 	%\vspace{5pt}
-%  	%\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
-%  	%\vspace{-15pt}
-% }
-% Name command
+\newcommand{\myname}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{26pt}{30pt}\selectfont {#1 \\} \normalfont}
 
-\newcommand{\namesection}[2]{
-\begin{minipage}[t]{0.68\textwidth}
-\begin{flushleft}
-\fontsize{26pt}{30pt}
-\fontspec[Path = fonts/lato/]{Lato-Hai}\selectfont #1 
-\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont #2
+\newcommand{\links}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
 
 
-\end{flushleft}
-\end{minipage}
-
-% \centering{
-% \color{headings}
-
-% }
-}
 
 \titlespacing{\section}{0pt}{0pt}{0pt}
 
 % thin section headings (ie. Experience, Awards, Education)
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{16pt}\selectfont \raggedright\uppercase}{} {0em}{}
+\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{12pt}{12pt}\selectfont \raggedright\uppercase}{} {0em}{}
 
 % bold headings in small column!
 % (ie. Data Analysis and Visualization.
